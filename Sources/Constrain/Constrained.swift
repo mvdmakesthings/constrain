@@ -14,31 +14,3 @@ import Foundation
         self.value = max(range.lowerBound, min(wrappedValue, range.upperBound))
     }
 }
-
-
-@propertyWrapper public struct TestProp<Value: Comparable> {
-    var _value2: Value
-    
-    public var wrappedValue: Value {
-        get { _value2 }
-        set { _value2 = newValue }
-    }
-    
-    public init(wrappedValue: Value) {
-        self._value2 = wrappedValue
-    }
-}
-
-
-@propertyWrapper public struct TestProp2<Value: Comparable> {
-    var _value2: Value
-    
-    public var wrappedValue: Value {
-        get { _value2 }
-        set { _value2 = newValue }
-    }
-    
-    public init(wrappedValue: Value) {
-        self._value2 = wrappedValue
-    }
-}
