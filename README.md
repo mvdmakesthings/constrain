@@ -38,6 +38,12 @@ Forcing lowercased string
 @Lowercased var name: String
 ```
 
+### Capitalized
+Formats a string to be capitalized
+```swift
+@Capitalized var name: String
+```
+
 ## Requirements
 - Swift 5+
 
