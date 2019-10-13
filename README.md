@@ -32,6 +32,12 @@ Forcing uppercased string
 @Uppercased var name: String
 ```
 
+### Lowercased
+Forcing lowercased string
+```swift
+@Lowercased var name: String
+```
+
 ## Requirements
 - Swift 5+
 
